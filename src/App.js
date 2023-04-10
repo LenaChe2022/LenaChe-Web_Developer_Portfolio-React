@@ -1,8 +1,8 @@
 import './App.css';
 import Header from './components/Header';
-import Nav from './components/Navigation';
 import ProjectDetail from './components/Project';
 import Footer from './components/Footer';
+import AboutMe from './components/AboutMe';
 
 
 function App() {
@@ -11,6 +11,9 @@ function App() {
         <Header />
     <div className="bucket-app">
         <ProjectDetail />
+    </div>
+    <div className="bucket-app">
+        <AboutMe />
     </div>
         <Footer />
       </div>
