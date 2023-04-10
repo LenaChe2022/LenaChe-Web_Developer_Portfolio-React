@@ -4,10 +4,10 @@ function MyDetail(props) {
   return (
     <div className="text-center">
      <section id="about-me">
-            <div class="aside">
+            <div className="aside">
                 <h3>About Me</h3>
              </div>
-             <article class="article">
+             <article className="article">
                 <p>I started coding in 2022 within UW boot camp. I enjoy the magic of creating web aplication from scratch! There are so many new and interesting things for me to explore. I would like to display my work here. I hope this portfolio will help you to get to know me better. </p>
                 <img id="MyPhoto" src="../Me.jpg" alt="Me"/> 
              </article>

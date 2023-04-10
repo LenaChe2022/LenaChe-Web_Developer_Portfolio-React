@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
 
-export default function Nav() {
+//let currentWindow = 'home';
+
+function Nav() {
   const navStyle = {
     color: '#FFA62B',
     fontSize: 'x-large',
@@ -12,6 +14,7 @@ export default function Nav() {
   const [contactstyle, setContactstyle] = useState({});
   const [portfoliostyle, setPortfoliostyle] = useState({});
   const [resumestyle, setResumestyle] = useState({});
+  //let currentWindow = 'home';
 
   const handleHomeClick = () => {
     setHomestyle(navStyle);
@@ -74,4 +77,7 @@ export default function Nav() {
         </ul>
     </nav>
   );
-}
+};
+
+export default Nav;
+
