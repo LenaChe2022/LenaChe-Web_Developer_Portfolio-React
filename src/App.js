@@ -72,13 +72,6 @@ function App() {
       };
     
 
-    //const [activeSection, setActiveSection] = useState('home');
-
-    // const handleMenuClick = (section) => {
-    //   setActiveSection(section);
-    // };
-
-
 
     return (
     <div className="flex-column justify-flex-start min-100-vh">    
