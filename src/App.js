@@ -1,18 +1,20 @@
 import './App.css';
 import Header from './components/Header';
-import ProjectDetail from './components/Project';
+import ProjectList from './components/Project';
 import Footer from './components/Footer';
 import AboutMe from './components/AboutMe';
+
+import allProjects from '../src/projectList'
 
 
 function App() {
   return (
     <div className="flex-column justify-flex-start min-100-vh">
         <Header />
-    <div className="bucket-app">
-        <ProjectDetail />
+    <div className="view-card">
+        <ProjectList props={allProjects}/>
     </div>
-    <div className="bucket-app">
+    <div className="view-card">
         <AboutMe />
     </div>
         <Footer />

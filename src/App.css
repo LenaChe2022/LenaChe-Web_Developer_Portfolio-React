@@ -46,7 +46,11 @@ p {
 
 #about-me ul {
   color: var(--noWhite);
-  
+}
+
+.img-fluid {
+  border-radius: 20px;
+  padding: 10px;
 }
 
 header {
@@ -73,14 +77,16 @@ nav ul{
 nav li{
   list-style: none;
   background-color: var(--very-dark);
+  color: var(--accent);
 }
 
 nav a{
   background-color: var(--very-dark);
   padding:10px;
   margin:5px;
-  text-decoration: none;
+  /* text-decoration: none; */
   position:relative;
+  text-decoration: double;
 }
 
 
@@ -88,6 +94,7 @@ footer{
   background-color: var(--dark);
   color: var(--noWhite);
   margin-bottom: 0;
+  padding-bottom: 20px;
 }
 
 .main-header-menu {
@@ -101,7 +108,7 @@ footer{
   justify-content: flex-end;
 }
 
-.bucket-app {
+.view-card {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;

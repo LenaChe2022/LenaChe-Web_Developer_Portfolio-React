@@ -17,7 +17,7 @@ const Footer = () => {
           by LenaChe.
         </h4>
         <h4>
-        <a href="https://github.com/LenaChe2022"> GitHub</a>
+        <a href="https://github.com/LenaChe2022"> My GitHub</a>
         </h4>
         <h4>
         <a href="mailto:LenaChe2022@gmail.com"> LenaChe2022@gmail.com</a>
