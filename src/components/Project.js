@@ -1,18 +1,26 @@
 import React from 'react';
 
-function ProjectDetail(props) {
+
+function ProjectList({props}) {
   return (
-    <div className="text-center">
+      <div className="text-center parent">
+       {props.map((prop) => (
+       <div key={prop.id} className="view-card">
+       <h1> {prop.title}</h1>
+       <h3>Description: {prop.description}</h3>
       <img
-        alt={props.title}
+        alt={prop.title}
         className="img-fluid"
-        src={props.src}
+        src={prop.src}
         style={{ margin: '0 auto' }}
       />
-      <h3>Link: {props.link}</h3>
-      <h3>GitHub repository: <a href={props.gitHubLink}>{props.gitHubLink}</a></h3>
+      <h3>Link: <a href={prop.link}>{prop.link}</a></h3>
+      <h3>GitHub repository: <a href={prop.gitHub}>{prop.gitHub}</a></h3>
+      </div>
+      ))}
     </div>
   );
 }
 
-export default ProjectDetail;
+
+export default ProjectList;
