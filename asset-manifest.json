@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/LenaChe-Web_Developer_Portfolio-React/static/css/main.e986e2f9.css",
+    "main.js": "/LenaChe-Web_Developer_Portfolio-React/static/js/main.bf04f31d.js",
+    "index.html": "/LenaChe-Web_Developer_Portfolio-React/index.html",
+    "main.e986e2f9.css.map": "/LenaChe-Web_Developer_Portfolio-React/static/css/main.e986e2f9.css.map",
+    "main.bf04f31d.js.map": "/LenaChe-Web_Developer_Portfolio-React/static/js/main.bf04f31d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e986e2f9.css",
+    "static/js/main.bf04f31d.js"
+  ]
+}
