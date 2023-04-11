@@ -1,14 +1,13 @@
 import './App.css';
 import { useState } from 'react';
-//import Header from './components/Header';
 import ProjectList from './components/Project';
 import Footer from './components/Footer';
 import AboutMe from './components/AboutMe';
+import Resume from './components/Resume';
 import Form from './components/Form/index';
 
 import allProjects from '../src/projectList'
 
-//let currentState = 0;
 
 function App() {
 
@@ -18,26 +17,16 @@ function App() {
         fontWeight: 'bold',
       };
     
-      const [homestyle, setHomestyle] = useState({});
       const [aboutmestyle, setAboutmestyle] = useState({});
       const [contactstyle, setContactstyle] = useState({});
       const [portfoliostyle, setPortfoliostyle] = useState({});
       const [resumestyle, setResumestyle] = useState({});
-      //let currentWindow = 'home';
-      const [activeSection, setActiveSection] = useState('home');
+
+      const [activeSection, setActiveSection] = useState('aboutMe');
     
-      const handleHomeClick = () => {
-        setHomestyle(navStyle);
-        setAboutmestyle({});
-        setContactstyle({});
-        setPortfoliostyle({});
-        setResumestyle({});
-        setActiveSection('home');
-      };
-    
+
       const handleAboutmeClick = () => {
         setAboutmestyle(navStyle);
-        setHomestyle({});
         setContactstyle({});
         setPortfoliostyle({});
         setResumestyle({});
@@ -47,7 +36,6 @@ function App() {
       const handlePortfolioClick = () => {
         setPortfoliostyle(navStyle);
         setAboutmestyle({});
-        setHomestyle({});
         setContactstyle({});
         setResumestyle({});
         setActiveSection('portfolio');
@@ -55,7 +43,6 @@ function App() {
     
       const handleContactClick = () => {
         setContactstyle(navStyle);
-        setHomestyle({});
         setAboutmestyle({});
         setPortfoliostyle({});
         setResumestyle({});
@@ -64,7 +51,6 @@ function App() {
     
       const handleResumeClick = () => {
         setResumestyle(navStyle);
-        setHomestyle({});
         setAboutmestyle({});
         setPortfoliostyle({});
         setContactstyle({});
@@ -79,9 +65,6 @@ function App() {
         <h1 className="m-0">LenaChe</h1>
         <nav className="navigation  justify-space-between-lg justify-center align-center">
         <ul>
-        <li>
-          <a className="navLink" style={homestyle} href="#home" onClick={handleHomeClick}>Home</a>
-        </li>
         <li>
           <a className="navLink" style={aboutmestyle} href="#aboutMe" onClick={handleAboutmeClick}>About Me</a>
         </li>
@@ -98,33 +81,18 @@ function App() {
     </nav>
     </header>
     <div className="view-card">
-    {activeSection === 'home' && <AboutMe />}
     {activeSection === 'aboutMe' && <AboutMe />}
     {activeSection === 'contact' && <Form />}
+    {activeSection === 'resume' && <Resume />}
     {activeSection === 'portfolio' && <ProjectList props={allProjects}/>}
     </div>
     <Footer />
     </div>
     );
 
-
+};
  
   
-//     return (
-//     <div className="flex-column justify-flex-start min-100-vh">
-//         <Header />
-//     <div className="view-card">
-//         <Form/>
-//     </div>    
-//     <div className="view-card">
-//         <ProjectList props={allProjects}/>
-//     </div>
-//     <div className="view-card">
-//         <AboutMe />
-//     </div>
-//         <Footer />
-//       </div>
-//   );
-}
+
 
 export default App;

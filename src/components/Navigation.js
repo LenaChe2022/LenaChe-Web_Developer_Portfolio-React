@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 
-//let currentWindow = 'home';
+
 
 function Nav() {
   const navStyle = {
@@ -9,24 +9,14 @@ function Nav() {
     fontWeight: 'bold',
   };
 
-  const [homestyle, setHomestyle] = useState({});
   const [aboutmestyle, setAboutmestyle] = useState({});
   const [contactstyle, setContactstyle] = useState({});
   const [portfoliostyle, setPortfoliostyle] = useState({});
   const [resumestyle, setResumestyle] = useState({});
-  //let currentWindow = 'home';
-
-  const handleHomeClick = () => {
-    setHomestyle(navStyle);
-    setAboutmestyle({});
-    setContactstyle({});
-    setPortfoliostyle({});
-    setResumestyle({});
-  };
+  
 
   const handleAboutmeClick = () => {
     setAboutmestyle(navStyle);
-    setHomestyle({});
     setContactstyle({});
     setPortfoliostyle({});
     setResumestyle({});
@@ -35,14 +25,12 @@ function Nav() {
   const handlePortfolioClick = () => {
     setPortfoliostyle(navStyle);
     setAboutmestyle({});
-    setHomestyle({});
     setContactstyle({});
     setResumestyle({});
   };
 
   const handleContactClick = () => {
     setContactstyle(navStyle);
-    setHomestyle({});
     setAboutmestyle({});
     setPortfoliostyle({});
     setResumestyle({});
@@ -50,7 +38,6 @@ function Nav() {
 
   const handleResumeClick = () => {
     setResumestyle(navStyle);
-    setHomestyle({});
     setAboutmestyle({});
     setPortfoliostyle({});
     setContactstyle({});
@@ -59,9 +46,6 @@ function Nav() {
   return (
     <nav className="navigation  justify-space-between-lg justify-center align-center">
         <ul>
-        <li>
-          <a className="navLink" style={homestyle} href="#home" onClick={handleHomeClick}>Home</a>
-        </li>
         <li>
           <a className="navLink" style={aboutmestyle} href="#aboutMe" onClick={handleAboutmeClick}>About Me</a>
         </li>

@@ -51,7 +51,7 @@ function Form() {
   return (
     <div>
       <form className="form">
-        <label for="name">Your Name</label>
+        <label htmlFor="name">Your Name</label>
       <input
           value={userName}
           name="userName"
@@ -59,7 +59,7 @@ function Form() {
           type="text"
           placeholder="name"
         />
-        <label for="email">Your Email</label>
+        <label htmlFor="email">Your Email</label>
         <input
           value={email}
           name="email"
@@ -67,7 +67,7 @@ function Form() {
           type="email"
           placeholder="email"
         />
-        <label for="message">Leave your message here:</label>
+        <label htmlFor="message">Leave your message here:</label>
         <textarea
           value={message}
           name="message"
