@@ -5,7 +5,7 @@ function ProjectList({props}) {
   return (
       <div className="text-center parent">
        {props.map((prop) => (
-       <div className="view-card">
+       <div key={prop.id} className="view-card">
        <h1> {prop.title}</h1>
        <h3>Description: {prop.description}</h3>
       <img
