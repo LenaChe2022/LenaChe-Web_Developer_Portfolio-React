@@ -1,13 +1,19 @@
 {
   "files": {
-    "main.css": "/LenaChe-Web_Developer_Portfolio-React/static/css/main.e986e2f9.css",
-    "main.js": "/LenaChe-Web_Developer_Portfolio-React/static/js/main.bf04f31d.js",
+    "main.css": "/LenaChe-Web_Developer_Portfolio-React/static/css/main.9fb24837.css",
+    "main.js": "/LenaChe-Web_Developer_Portfolio-React/static/js/main.fd85a9fc.js",
+    "static/media/Me.jpg": "/LenaChe-Web_Developer_Portfolio-React/static/media/Me.294543ba4c3520e9ecb8.jpg",
+    "static/media/weather.jpeg": "/LenaChe-Web_Developer_Portfolio-React/static/media/weather.5b193a5ce8a5b771fef8.jpeg",
+    "static/media/workDay.jpeg": "/LenaChe-Web_Developer_Portfolio-React/static/media/workDay.d511b2735d65b22a33d8.jpeg",
+    "static/media/JATE.png": "/LenaChe-Web_Developer_Portfolio-React/static/media/JATE.162acc7f18524e9e94eb.png",
+    "static/media/Nutriplanner.jpg": "/LenaChe-Web_Developer_Portfolio-React/static/media/Nutriplanner.fb997814a589bd70c462.jpg",
+    "static/media/password.jpeg": "/LenaChe-Web_Developer_Portfolio-React/static/media/password.aa25cbf89939def02f6b.jpeg",
     "index.html": "/LenaChe-Web_Developer_Portfolio-React/index.html",
-    "main.e986e2f9.css.map": "/LenaChe-Web_Developer_Portfolio-React/static/css/main.e986e2f9.css.map",
-    "main.bf04f31d.js.map": "/LenaChe-Web_Developer_Portfolio-React/static/js/main.bf04f31d.js.map"
+    "main.9fb24837.css.map": "/LenaChe-Web_Developer_Portfolio-React/static/css/main.9fb24837.css.map",
+    "main.fd85a9fc.js.map": "/LenaChe-Web_Developer_Portfolio-React/static/js/main.fd85a9fc.js.map"
   },
   "entrypoints": [
-    "static/css/main.e986e2f9.css",
-    "static/js/main.bf04f31d.js"
+    "static/css/main.9fb24837.css",
+    "static/js/main.fd85a9fc.js"
   ]
 }
