@@ -8,6 +8,7 @@ import Form from './components/Form/index';
 
 import allProjects from '../src/projectList'
 
+//import { weather.jpeg, JATE.png, } from './images/'
 
 function App() {
 
