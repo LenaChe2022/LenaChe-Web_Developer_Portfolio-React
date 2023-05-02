@@ -1,7 +1,8 @@
 {
   "files": {
     "main.css": "/LenaChe-Web_Developer_Portfolio-React/static/css/main.9fb24837.css",
-    "main.js": "/LenaChe-Web_Developer_Portfolio-React/static/js/main.fd85a9fc.js",
+    "main.js": "/LenaChe-Web_Developer_Portfolio-React/static/js/main.463eaba2.js",
+    "static/media/whitchesBrew.jpg": "/LenaChe-Web_Developer_Portfolio-React/static/media/whitchesBrew.3c156268d4b6fd7e5086.jpg",
     "static/media/Me.jpg": "/LenaChe-Web_Developer_Portfolio-React/static/media/Me.294543ba4c3520e9ecb8.jpg",
     "static/media/weather.jpeg": "/LenaChe-Web_Developer_Portfolio-React/static/media/weather.5b193a5ce8a5b771fef8.jpeg",
     "static/media/workDay.jpeg": "/LenaChe-Web_Developer_Portfolio-React/static/media/workDay.d511b2735d65b22a33d8.jpeg",
@@ -10,10 +11,10 @@
     "static/media/password.jpeg": "/LenaChe-Web_Developer_Portfolio-React/static/media/password.aa25cbf89939def02f6b.jpeg",
     "index.html": "/LenaChe-Web_Developer_Portfolio-React/index.html",
     "main.9fb24837.css.map": "/LenaChe-Web_Developer_Portfolio-React/static/css/main.9fb24837.css.map",
-    "main.fd85a9fc.js.map": "/LenaChe-Web_Developer_Portfolio-React/static/js/main.fd85a9fc.js.map"
+    "main.463eaba2.js.map": "/LenaChe-Web_Developer_Portfolio-React/static/js/main.463eaba2.js.map"
   },
   "entrypoints": [
     "static/css/main.9fb24837.css",
-    "static/js/main.fd85a9fc.js"
+    "static/js/main.463eaba2.js"
   ]
 }
